@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    background-color: #28282a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dice-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.title {
+    color: #f68c2f;
+    text-align: center;
+}
+
+.btn-dice-roll {
+    width: 150px;
+    display: block;
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(-20deg, #f22843 0%, #ff9a44 100%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #c09b07;
+    text-align: center;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.animation {
+    animation: roll 1s infinite;
+}
