@@ -1,1 +1,1 @@
-# Product Quantity Counter
+# *Dice Roller*
